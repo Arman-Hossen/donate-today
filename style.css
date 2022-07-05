@@ -49,15 +49,16 @@
     text-align: center;
 
 }
-.donate h1{
+.h1tag{
     text-align: center;
-    padding-top: 25px;
+    margin-top: 50px;
+    padding-top: 50px;
     padding-left: 200px;
     padding-right: 200px;
     font-size: 40px;
     padding-bottom: 15px;
 }
-.donate p{
+.paragraph{
     text-align: justify;
     padding-left: 385px;
     padding-right: 375px;
@@ -101,11 +102,11 @@
     width: 20%;
     border-radius: 10px;
     border-style: groove;
-    background-color: rgb(248, 196, 198);
-    border-color: rgb(239, 52, 52);
+    background-color: rgb(183, 229, 237);
+    border-color: rgba(11, 210, 245, 0.949);
 }
 .container-child2 h2{
-    color: rgb(174, 11, 11);;
+    color: rgba(11, 210, 245, 0.949);
 }
 
 .donate-others p{
@@ -114,7 +115,35 @@
 .donate-others hr{
     margin-left: 250px;
     margin-right: 350px;
-    margin-top: 0px;
+    margin-top: 5px;
     margin-bottom: 50px;
+}
+.container-donate{
+    display: flex;
+    
+    flex-direction: row;
+    padding: 25px 100px;
+
+}
+.container-Dplan{
+    text-decoration: none;
+    background-image: cornsilk;
+    text-align: center;
+    padding: 30px 40px;
+    border-radius: 15px;
+    height: 300px;
+    margin: 10px;
+    box-shadow:0px 0px 20px rgb(0 0 0 / 10%);
+    width: 33.34%;
+    border-radius: 10px;
+}
+#child{
+    background-color: #b6d2e1a7;
+}
+#child1{
+    background-color: #f0d2e6a0;
+}
+#child2{
+    background-color: #a6e6de8a;
 }
 
