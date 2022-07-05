@@ -1,0 +1,120 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    color: #0e2431;
+    margin: 0;
+    padding: 0;
+}
+
+.home-page{
+    background-image: linear-gradient(rgba(150, 152, 154, 0.266), #c0b8ed3d),url(images/background/donation13.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size:     cover; 
+    background-position: center;  
+    
+    
+
+}
+.home-page h1{
+    text-align: center;
+    padding-top: 200px;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 40px;
+    color: rgba(11, 210, 245, 0.949);
+    padding-bottom: 15px;
+    
+}
+.span-text{
+    color: #ffff;
+}
+.home-page p{
+    text-align: justify;
+    padding-left: 405px;
+    padding-right: 405px;
+    color: #ffff;
+    font-size: 20px;
+    padding-bottom:50px ;
+    font-weight: 600;
+   
+}
+.click-btn{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(122, 143, 214), rgba(11, 210, 245, 0.949));
+    border-radius: 15px;
+    color: cornsilk;
+    font-weight: 700;
+    margin-left: 680px;
+    padding: 20px;
+    text-align: center;
+
+}
+.donate h1{
+    text-align: center;
+    padding-top: 25px;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+.donate p{
+    text-align: justify;
+    padding-left: 385px;
+    padding-right: 375px;
+    font-size: 18px;
+    padding-bottom:50px ;
+    font-weight: 600;
+    color: rgb(159, 166, 170);
+
+}
+.container{
+   
+    display: flex;
+    
+    flex-direction: row;
+    padding: 10px 350px 20px 350px;
+    
+   
+    
+}
+.container-child{
+    text-decoration: none;
+    background-image: cornsilk;
+    text-align: center;
+    padding: 30px 40px;
+    border-radius: 15px;
+    height: 50px;
+    margin: 10px;
+    box-shadow:0px 0px 20px rgb(0 0 0 / 10%);
+    width: 20%;
+    border-radius: 10px;
+}
+.container-child2{
+    text-decoration: none;
+    background-image: cornsilk;
+    text-align: center;
+    padding: 30px 40px;
+    margin: 10px;
+    border-radius: 15px;
+    height: 50px;
+    box-shadow:0px 0px 20px rgb(0 0 0 / 10%);
+    width: 20%;
+    border-radius: 10px;
+    border-style: groove;
+    background-color: rgb(248, 196, 198);
+    border-color: rgb(239, 52, 52);
+}
+.container-child2 h2{
+    color: rgb(174, 11, 11);;
+}
+
+.donate-others p{
+    text-align: center;
+}
+.donate-others hr{
+    margin-left: 250px;
+    margin-right: 350px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
