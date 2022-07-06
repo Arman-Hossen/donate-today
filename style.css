@@ -101,8 +101,16 @@
     color: rgba(11, 210, 245, 0.949);
 }
 
-.donate-others p{
+.donate-others input{
     text-align: center;
+    margin-left: 445px;
+    width: 600px;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-style: none;
+    color: #6e7578;
+    font-weight: 700;
 }
 .donate-others hr{
     margin-left: 350px;
@@ -142,6 +150,100 @@
     text-align: justify;
     padding: 10px;
 }
+.j-mission{
+    margin-left: 670px;
+    padding-bottom: 15px;
+    color:rgba(11, 210, 245, 0.949)
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 5%;
+   
+}
+
+.half-container{
+    width: 40%;
+    padding-left: 5%;
+}
+
+.half-container img{
+    width: 100%;
+   
+    
+}
+.container-join{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    background-image: cornsilk;
+    padding: 20px 10px 20px 10px;
+    border-radius: 15px;
+    box-shadow:0px 0px 20px rgb(0 0 0 / 10%);
+    width: 50%;
+    background-color: rgb(183, 229, 237);
+}
+#h-container1{
+    padding: 20px 50px 20px 15px;
+}
+#h-container2{
+    padding: 20px 65px 2px 50px;
+    background-image: linear-gradient(rgba(206, 210, 215, 0.214), #1a191ea1),url(images/background/donation15.jpg);
+    background-repeat: no-repeat;
+    background-size:     cover; 
+    background-position: center ; 
+    
+}
+#h-container2 h1{
+   
+    padding: 50px 50px 10px 50px;
+    color: aqua;
+}
+#h-container2 h4{
+   
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+#h-container2 p{
+    padding: 5px;
+    color: #ffff;
+
+}
+.regi-btn{
+
+    text-decoration: none;
+    background-image: linear-gradient(rgb(122, 143, 212), rgba(11, 210, 245, 0.949));
+    border-radius: 15px;
+    font-weight: 700;
+    margin-left: 160px;
+    margin-top: 70px;
+    width: 40%;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    width: 33.33%;
+   padding: 5%;
+}
+.sub-content{
+    
+    width: 50%;
+    padding-left: 5%;
+    
+
+}
+.sub-content p{
+    
+    margin-right: o;
+}
+
 .contact-form{
     width: 800px;
     height: 100px;
