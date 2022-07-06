@@ -40,7 +40,7 @@
 }
 .click-btn{
     text-decoration: none;
-    background-image: linear-gradient(rgb(122, 143, 214), rgba(11, 210, 245, 0.949));
+    background-image: linear-gradient(rgb(122, 143, 212), rgba(11, 210, 245, 0.949));
     border-radius: 15px;
     color: cornsilk;
     font-weight: 700;
@@ -142,4 +142,52 @@
     text-align: justify;
     padding: 10px;
 }
+.contact-form{
+    width: 800px;
+    height: 100px;
+    padding: 70px 0;
+    text-align: center;
+    margin: 20px 350px;
+    /*background-color: rgb(183, 229, 237);*/
+     background-color: rgb(183, 229, 237);
+    
+    
+    
+}
+#email{
+    height: 40px;
+    width: 40%;
+    border-radius: 5px;
+    padding: 10px;
+    color: rgb(35, 36, 36);
+    background-color: #ffff;
+    border-style: none;
+}
+#submit{
+    height: 60px;
+    border-radius: 5px;
+    width: 20%;
+    background-image: linear-gradient(rgb(122, 143, 214), rgba(11, 210, 245, 0.949));
+    color: cornsilk;
+    border-style: none;
 
+}
+footer {
+    margin-top: 100px;
+    text-align: center;
+    background-color: #0b0a10;
+    height: 200px;
+    color: #ffff;
+}
+footer span{
+    color:rgba(11, 210, 245, 0.949);
+}
+footer h2 {
+    color: #ffff;
+
+}
+footer p{
+    
+    color: #ffff;
+
+}
