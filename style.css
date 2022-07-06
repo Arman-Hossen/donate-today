@@ -230,9 +230,16 @@
     color: #ffff;
 
 }
+.container-contri{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 150px;
+   
+}
+
 .need{
     
-    height: 550px;
+    height: 350px;
     width: 100%;
      
      
@@ -249,7 +256,9 @@
 
 }
 .need img{
-    margin-left: -6%;
+    
+    margin-left: 4%;
+
 }
 .people-need h1{
      margin-top: 6%;
@@ -258,6 +267,7 @@
 .people-need p{
     margin-bottom: 12%;
     padding-right: 20px;
+    text-align: left;
 }
 .regi-btn{
 
