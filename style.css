@@ -10,7 +10,8 @@
     height: 700px;
     background-repeat: no-repeat;
     background-size:     cover; 
-    background-position: center;  
+    background-position: center;
+    align-items: center;  
     
     
 
@@ -18,8 +19,7 @@
 .home-page h1{
     text-align: center;
     padding-top: 200px;
-    padding-left: 200px;
-    padding-right: 200px;
+   
     font-size: 40px;
     color: rgba(11, 210, 245, 0.949);
     padding-bottom: 15px;
@@ -42,11 +42,14 @@
     text-decoration: none;
     background-image: linear-gradient(rgb(122, 143, 212), rgba(11, 210, 245, 0.949));
     border-radius: 15px;
+    align-items: center;
+    margin-left: 650px;
+    margin-right: 650px;
     color: cornsilk;
     font-weight: 700;
-    margin-left: 680px;
     padding: 20px;
     text-align: center;
+    
 
 }
 .h1tag{
