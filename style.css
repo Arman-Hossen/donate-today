@@ -230,9 +230,30 @@
     color: #ffff;
 
 }
-.container-contri{
+.fexible-container{
+    display: flex;
+    margin-bottom: 150px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(122, 143, 212), rgba(11, 210, 245, 0.949));
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+
+}
+/* .container-contri{
     display: flex;
     flex-direction: row;
+    width: 100%;
     padding-bottom: 150px;
    
 }
@@ -273,7 +294,7 @@
     margin-bottom: 12%;
     padding-right: 20px;
     text-align: left;
-}
+} */
 .regi-btn{
 
     text-decoration: none;
