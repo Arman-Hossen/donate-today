@@ -12,14 +12,15 @@
     background-size:     cover; 
     background-position: center;
     align-items: center;  
+    height: 570px;
+    width: 100%;
     
     
 
 }
 .home-page h1{
     text-align: center;
-    padding-top: 200px;
-   
+    padding-top: 5%;
     font-size: 40px;
     color: rgba(11, 210, 245, 0.949);
     padding-bottom: 15px;
@@ -43,8 +44,8 @@
     background-image: linear-gradient(rgb(122, 143, 212), rgba(11, 210, 245, 0.949));
     border-radius: 15px;
     align-items: center;
-    margin-left: 650px;
-    margin-right: 650px;
+    margin-left: 45%;
+    
     color: cornsilk;
     font-weight: 700;
     padding: 20px;
@@ -71,12 +72,17 @@
     color: rgb(159, 166, 170);
 
 }
+.donate{
+    height: 570px;
+    width: 100%;
+
+}
 .container{
    
     display: flex;
     
     flex-direction: row;
-    padding: 10px 350px 20px 350px;
+    padding: 10px 20% 20px 20%;
     
    
     
@@ -85,7 +91,7 @@
     text-decoration: none;
     background-image: cornsilk;
     text-align: center;
-    padding: 30px 40px;
+    padding: 30px 2%;
     border-radius: 15px;
     height: 50px;
     margin: 10px;
@@ -106,8 +112,8 @@
 
 .donate-others input{
     text-align: center;
-    margin-left: 445px;
-    width: 600px;
+    margin-left: 42%;
+    width: 15%;
     height: 40px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -116,10 +122,16 @@
     font-weight: 700;
 }
 .donate-others hr{
-    margin-left: 350px;
-    margin-right: 350px;
+    margin-left: 30%;
+    margin-right: 30%;
     margin-top: 5px;
     margin-bottom: 50px;
+}
+.donate-plan{
+    height: 570px;
+    width: 100%;
+
+
 }
 .container-donate{
     display: flex;
@@ -134,7 +146,7 @@
     text-align: center;
     padding: 30px 40px;
     border-radius: 15px;
-    height: 300px;
+    height: 330px;
     margin: 10px;
     box-shadow:0px 0px 20px rgb(0 0 0 / 10%);
     width: 33.34%;
@@ -154,7 +166,7 @@
     padding: 10px;
 }
 .j-mission{
-    margin-left: 670px;
+    margin-left: 43%;
     padding-bottom: 15px;
     color:rgba(11, 210, 245, 0.949)
 }
@@ -164,6 +176,7 @@
     flex-direction: row;
     gap: 30px;
     margin-left: 5%;
+    margin-right: 5%;
    
 }
 
@@ -248,11 +261,11 @@
 }
 
 .contact-form{
-    width: 800px;
+    width: 60%;
     height: 100px;
     padding: 70px 0;
     text-align: center;
-    margin: 20px 350px;
+    margin: 20px 20%;
     /*background-color: rgb(183, 229, 237);*/
      background-color: rgb(183, 229, 237);
     
