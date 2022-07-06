@@ -122,13 +122,13 @@
     font-weight: 700;
 }
 .donate-others hr{
-    margin-left: 30.25%;
+    margin-left: 30.35%;
     margin-right: 30%;
     margin-top: 5px;
     margin-bottom: 50px;
 }
 .donate-plan{
-    height: 670px;
+    height: 770px;
     width: 100%;
 
 
@@ -186,8 +186,9 @@
     padding-left: 5%;
 }
 
-.half-container img{
+ .half-container img{
     width: 100%;
+   
    
     
 }
@@ -229,6 +230,35 @@
     color: #ffff;
 
 }
+.need{
+    
+    height: 550px;
+    width: 100%;
+     
+     
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(122, 143, 212), rgba(11, 210, 245, 0.949));
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 15px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+
+}
+.need img{
+    margin-left: -6%;
+}
+.people-need h1{
+     margin-top: 6%;
+     margin-bottom: 2%;
+}
+.people-need p{
+    margin-bottom: 12%;
+    padding-right: 20px;
+}
 .regi-btn{
 
     text-decoration: none;
@@ -258,7 +288,7 @@
 }
 .sub-content p{
     
-    margin-right: o;
+    margin-right: 0;
 }
 .get-updates{
     height: 570px;
@@ -280,7 +310,7 @@
 #email{
     height: 40px;
     width: 40%;
-    border-radius: 5px;
+    border-radius: 3px;
     padding: 10px;
     color: rgb(35, 36, 36);
     background-color: #ffff;
@@ -288,8 +318,8 @@
 }
 #submit{
     height: 60px;
-    border-radius: 5px;
     width: 20%;
+    border-radius: 3px;
     background-image: linear-gradient(rgb(122, 143, 214), rgba(11, 210, 245, 0.949));
     color: cornsilk;
     border-style: none;
